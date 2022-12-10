@@ -1,9 +1,20 @@
 
 import './App.css';
+import LandingPage from './Pages/LandingPage/LandingPage';
+
 
 function App() {
+
+  const renderComponent=()=>{
+    return(
+      <>
+      <LandingPage />
+      </>
+    )
+  }
+
   return (
-    <div className='d-flex justify-content-center text-center'> <h3>Welcome to the E-Commerce App !</h3></div>
+   renderComponent()
   );
 }
 
